@@ -1,3 +1,62 @@
+/*
+---
+name: Button
+category: CSS
+---
+
+Options
+-------
+Use any of the available button style types to quickly create a styled button. Just modify the `bsStyle` prop.
+
+```options.jsx
+<ButtonToolbar>
+  <Button>Default</Button>
+
+  <Button bsStyle="primary">Primary</Button>
+
+  <Button bsStyle="success">Success</Button>
+
+  <Button bsStyle="info">Info</Button>
+
+  <Button bsStyle="warning">Warning</Button>
+
+  <Button bsStyle="danger">Danger</Button>
+
+  <Button bsStyle="link">Link</Button>
+</ButtonToolbar>
+```
+
+<warning>
+#### Button spacing
+Because React doesn't output newlines between elements, buttons on the same line are displayed flush against each other. To preserve the spacing between multiple inline buttons, wrap your button group in `<ButtonToolbar />`.
+</warning>
+
+Sizes
+-----
+Fancy larger or smaller buttons? Add `bsSize="large"`, `bsSize="small"`, or `bsSize="xsmall"` for additional sizes.
+
+```sizes.jsx
+<div>
+  <ButtonToolbar>
+    <Button bsStyle="primary" bsSize="large">Large button</Button>
+    <Button bsSize="large">Large button</Button>
+  </ButtonToolbar>
+  <ButtonToolbar>
+    <Button bsStyle="primary">Default button</Button>
+    <Button>Default button</Button>
+  </ButtonToolbar>
+  <ButtonToolbar>
+    <Button bsStyle="primary" bsSize="small">Small button</Button>
+    <Button bsSize="small">Small button</Button>
+  </ButtonToolbar>
+  <ButtonToolbar>
+    <Button bsStyle="primary" bsSize="xsmall">Extra small button</Button>
+    <Button bsSize="xsmall">Extra small button</Button>
+  </ButtonToolbar>
+</div>
+```
+*/
+
 import classNames from 'classnames';
 import React from 'react';
 import elementType from 'react-prop-types/lib/elementType';

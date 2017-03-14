@@ -1,3 +1,24 @@
+/*
+---
+name: DropdownButton
+category: CSS
+---
+
+Single button dropdowns
+-----------------------
+Create a dropdown button with the `<DropdownButton />` component.
+
+```single-button.jsx
+<DropdownButton bsStyle="default" title="Default">
+  <MenuItem eventKey="1">Action</MenuItem>
+  <MenuItem eventKey="2">Another action</MenuItem>
+  <MenuItem eventKey="3" active>Active Item</MenuItem>
+  <MenuItem divider />
+  <MenuItem eventKey="4">Separated link</MenuItem>
+</DropdownButton>
+```
+*/
+
 import React from 'react';
 
 import Dropdown from './Dropdown';
