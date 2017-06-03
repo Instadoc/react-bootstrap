@@ -1,0 +1,18 @@
+name: React Bootstrap
+logo: https://react-bootstrap.github.io/assets/logo.png
+
+sidebar:
+  background: "#008299"
+  textColor: "#fff"
+
+headHtml: |
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap-theme.min.css">
+  <script>window._LIBRARY = 'ReactBootstrap';</script>
+
+bodyHtml: |
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-bootstrap/0.30.8/react-bootstrap.min.js"></script>
+
+webpackAppPath: ReactBootstrap
